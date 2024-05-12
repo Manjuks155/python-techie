@@ -1,6 +1,9 @@
 # list is mutable
 list_example = [2, 5, 10, 9, 8, 3, 0, 1, 7, 2, 12]
 
+print(f"count is : {list_example.count(200)}")
+print("Manju".count('a'))
+
 # num_list
 num_list = [2, 5, 10, 9, 8, 3, 0, 1, 7, 2, 12]
 print(num_list)
@@ -33,6 +36,7 @@ print(num_list[-2])
 # list[start:stop:step]
 print(num_list[5:7])
 print(num_list[0:200])
+print(num_list[-4:-2])
 
 # extended slicing
 print(num_list[2:7:1])
