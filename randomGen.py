@@ -16,3 +16,4 @@ list_n = [10, 4, -5, 25, 18, 2]
 rand_num = random.choice(list_n)
 
 print(rand_num)
+

@@ -96,6 +96,10 @@ print(num_list)
 num_list.remove("Zero")
 print(num_list)
 
+if num_list.count("Nothing") != 0:
+    num_list.remove("Nothing")
+print(num_list)
+
 val = num_list.remove(0)
 print("return val of remove : " + str(val))
 print(num_list)
