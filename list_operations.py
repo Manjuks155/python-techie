@@ -1,5 +1,8 @@
 # list is mutable
 list_example = [2, 5, 10, 9, 8, 3, 0, 1, 7, 2, 12]
+empty_list = []
+empty_list = list()
+print("type of a empty list : " + str(type(empty_list)))
 
 print(f"count is : {list_example.count(200)}")
 print("Manju".count('a'))

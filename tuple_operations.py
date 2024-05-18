@@ -6,6 +6,10 @@ tuple1 = (10)  # <class 'int'>     # Invalid tuple
 tuple2 = (20,)  # valid tuple
 tuple3 = ()  # Empty tuple   # valid
 
+empty_tuple = ()
+empty_tuple = tuple()
+print("type of empty tuple : " + str(type(empty_tuple)))
+
 print(type(num_tuple))
 print(type(name_tuple))
 print(type(mixed_tuple))
