@@ -10,6 +10,6 @@ for i in range(0, 101, 2):
 
 print("sum : " + str(sum))
 
-for i in range(5, 12, 2):
+for i in range(5, 14, 2):
     print(i)
 
